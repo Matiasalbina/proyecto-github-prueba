@@ -1,7 +1,48 @@
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: yellowgreen;
-    align-items: center;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: blue; */
+}
+
+.imagen figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+figure img {
+  width: 200px;
+  padding-top: 15px;
+}
+
+.lorem {
+  /* background-color: yellowgreen; */
+  width: 100%;
+  text-align: center;
+}
+
+.lorem p {
+  margin: 0%;
+  /* background-color: yellow; */
+}
+
+.button {
+  padding: 10px;
 }
